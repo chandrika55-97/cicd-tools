@@ -51,6 +51,7 @@ module "records" {
 
   zone_name = var.zone_name
 
+# here jenkins is master and jenkins-agent ia like a slave
   records = [
     {
       name    = "jenkins"
